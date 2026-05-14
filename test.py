@@ -155,7 +155,7 @@ class HighwaySimulation:
 
         self.epsilon       = 1.0
         self.epsilon_min   = 0.05
-        self.epsilon_decay = 0.9999
+        
 
         self.n_actions   = self.env.action_space.n
         self.q_table     = {}
